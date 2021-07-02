@@ -1,0 +1,193 @@
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        &__official {
+            display: none;
+        }
+        &__contacts {
+            margin-top: 15px;
+        }
+    }
+    .promo {
+        min-height: 444px;
+        padding-bottom: 50px;
+        &__wrapper {
+            margin-top: 40px;
+            align-items: center;
+        }
+        &__header {
+            text-align: center;
+            font-size: 30px;
+        }
+        &__subheader {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+        &__icons {
+            margin-top: 30px;
+            width: 100%;
+        }
+        &__icon {
+            font-size: 12px;
+            img {
+                margin-bottom: 10px;
+            }
+        }
+       
+
+    }
+    .button {
+        &_main {
+            margin-top: 40px;
+            width: 200px;
+        }
+    }
+    .advantages {
+        padding: 50px 0 50px 0;
+        &__header {
+            margin-bottom: 0;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        &__icons {
+            flex-direction: column;
+            margin-top: 15px;
+            width: 100%;
+            padding: 0 15px;
+        }
+        &__icon {
+            width: 90%;
+            margin: 0 auto;
+            img {
+                margin-top: 20px;
+            }
+        }
+        &__text {
+            margin-top: 15px;
+            span {
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .consultation {
+        padding-top: 60px;
+        .title {
+            font-size: 25px;
+            line-height: 30px;
+            text-align: center;
+        }
+            &__descr {
+                margin-top: 55px;
+                width: 220px;
+                line-height: 25px;
+                font-size: 20px; 
+                margin-left: 5px;       
+            }
+        
+    }
+
+    .carousel {
+        padding-top: 25px;
+        &__inner {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .slick-dots {
+            list-style-type: none;
+            width: 50%;
+            padding: 0;
+            margin: 0 auto;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            li {
+                width: 50px;
+                text-align: center;
+                button {
+                    font-size: 0;
+                    height: 12px;
+                    border: none;
+                    background-color: black;
+                    border-radius: 100%;
+                }
+            }    
+            .slick-active {
+                button {
+                    background-color: red;
+                }
+                    
+            }
+            
+            
+        }
+    }
+    .catalog {
+        padding-bottom: 50px;
+        &__tabs {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+        &__tab {
+            margin-bottom: 15px;
+        }
+        &__content {
+            margin-top: 15px;
+        }
+    }
+
+    .rewiew {
+        &__wrapper {
+            width: 100%;
+        }
+        &__title {
+            margin-bottom: 30px;
+        }
+        .rewiew-personal {
+            display: block;
+            &__img {
+                display: block;
+                margin: 0 auto;
+                width: 100px;
+                height: 100px;
+                margin-bottom: 15px;
+            }
+            &__name, &__number, &__rewiew  {
+                text-align: center;
+            }
+
+        }
+        
+    }
+    .footer {
+        &__info {
+            width: 100%;
+        }
+    }
+
+    .modal{
+        width: 100%;
+        padding: 20px;
+        &__descr {
+            padding: 0 26px;
+            margin-top: 15px;
+        }
+        &__close {
+            right: 0;
+        }
+    }
+}
+    .feed-form {
+        margin-top: 20px;
+        margin-left: 5px;
+        width: 280px;
+        &_mt25 {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
